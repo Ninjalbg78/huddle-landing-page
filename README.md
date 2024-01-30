@@ -5,3 +5,7 @@ This is a solution to Huddle Landing Page the on Frontend Mentor. Frontend Mento
 ## Screenshot (view-mobile)
 ![Huddle(mobile)](https://github.com/Ninjalbg78/huddle-landing-page/assets/126517267/8966a837-b984-4850-8c11-f6d98166a4cc)
 
+## Live Solution:
+https://huddlelanding-page0.netlify.app/
+## Frontend Live:
+https://www.frontendmentor.io/solutions/huddlelandingpage-l528TbWbpl
