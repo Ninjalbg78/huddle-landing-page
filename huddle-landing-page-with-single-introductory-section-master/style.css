@@ -1,0 +1,96 @@
+/* ## Colors
+/* FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+/* ### Primary
+
+- Violet: hsl(257, 40%, 49%)
+- Soft Magenta:  hsl(300, 69%, 71%) */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+  background-image: url(images/bg-desktop.svg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: hsl(257, 40%, 49%);
+  font-size: 1.6rem;
+}
+.container-center {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 120rem;
+}
+.container-logo {
+  padding: 4rem 1rem;
+  max-width: 100%;
+}
+.logo-img {
+  max-width: 30%;
+}
+.main-container {
+  gap: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+.container-img {
+  max-width: 100%;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  max-width: 100%;
+  font-size: 4rem;
+  padding-bottom: 2rem;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  line-height: 1.75;
+  max-width: 100%;
+  padding-bottom: 2rem;
+}
+.btn-Register {
+  font-family: "Poppins", sans-serif;
+  padding: 1rem 5rem;
+  color: hsl(257, 40%, 49%);
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  border-style: none;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-Register:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+
+.container-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-socialMedia {
+  color: white;
+  border: 1px solid #fff;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: all 0.2s;
+}
+.logo-socialMedia:hover {
+  color: hsl(300, 69%, 71%);
+  border: 1px solid hsl(300, 69%, 71%);
+}

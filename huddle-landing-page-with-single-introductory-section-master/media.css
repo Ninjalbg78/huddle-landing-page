@@ -1,0 +1,109 @@
+/* rem and em do not depends on html font-size in media queries!
+Instead, 1em= 1rem = 16px */
+
+/* FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+@media (max-width: 75em) {
+  .container-img {
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    max-width: 90%;
+  }
+  .logo-img {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 61em) {
+  .illustration {
+    max-width: 70%;
+  }
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .container-text {
+    text-align: center;
+  }
+  h1 {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 47em) {
+  .illustration {
+    max-width: 50rem;
+  }
+  p {
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+  .container-text {
+    padding-top: none;
+  }
+  .logo-img {
+    max-width: 15rem;
+  }
+  .container-logo {
+    padding: 3rem 1rem;
+  }
+  .btn-Register {
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 46em) {
+  h1 {
+    max-width: 54rem;
+    margin: 0 auto;
+  }
+  p {
+    max-width: 50rem;
+    margin: 0 auto;
+    font-size: 1.6rem;
+  }
+  .illustration {
+    max-width: 50rem;
+  }
+}
+@media (max-width: 36em) {
+  .illustration {
+    max-width: 40rem;
+  }
+  h1 {
+    max-width: 40rem;
+  }
+  p {
+    max-width: 40rem;
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 32em) {
+  .illustration {
+    max-width: 30rem;
+  }
+  h1 {
+    max-width: 37rem;
+    font-size: 2.4rem;
+  }
+  p {
+    font-size: 1.6rem;
+    max-width: 37rem;
+  }
+}
+
+@media (max-width: 28em) {
+  .logo-img {
+    max-width: 14rem;
+  }
+  h1 {
+    max-width: 30rem;
+  }
+  p {
+    max-width: 30rem;
+    font-size: 1.4rem;
+  }
+}
